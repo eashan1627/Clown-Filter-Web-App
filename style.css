@@ -1,0 +1,19 @@
+ h3 {
+    font-size: 25px !important;
+ }
+
+canvas {
+     animation-name: lightUp; 
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes lightUp{
+     from{box-shadow: 1px 1px 38px red;}
+     to{box-shadow: 1px 1px 38px yellow;}
+     
+ }
+
+ .btn-success:hover {
+     background-color: red;
+ }
